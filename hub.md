@@ -1,0 +1,27 @@
+---
+layout: page
+title: "Hub"
+permalink: /hub/
+---
+
+The central hub of my past posts.
+
+### Reading List 2020
+<ul>
+  {% for post in site.categories.book-review %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> posted {{post.date | date: "%b %-d %Y"}}
+
+    </li>
+  {% endfor %}
+</ul>
+
+
+### All Past Blog Posts
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> posted {{post.date | date: "%b %-d %Y"}}
+    </li>
+  {% endfor %}
+</ul>

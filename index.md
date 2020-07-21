@@ -4,3 +4,13 @@
 
 layout: home
 ---
+
+
+<ul>
+  {% for post in site.posts %}
+      <header>
+        <a href="{{ post.url }}">{{ post.title }}</a> posted {{post.date | date: "%b %-d %Y"}}
+      <header>
+      {{post.content | truncatewords:50}}
+
+  {% endfor %}
