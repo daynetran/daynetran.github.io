@@ -5,7 +5,7 @@ permalink: /hub/
 ---
 
 "The archives must be incomplete..." - Obi-wan
-Here is where I have stored all my past posts.
+Here is where I store all my past posts.
 
 ### Reading List 2020
 <ul>
