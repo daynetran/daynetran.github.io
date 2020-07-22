@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Hub"
-permalink: /hub/
+title: "Archives"
+permalink: /archives/
 ---
 
 "The archives must be incomplete..." - Obi-wan
