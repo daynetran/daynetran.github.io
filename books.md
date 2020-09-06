@@ -6,6 +6,7 @@ permalink: /books/
 
 ### What I'm Reading Right Now
 - [Superintelligence: Paths, Dangers, Strategies](https://www.goodreads.com/book/show/20527133-superintelligence)
+- [Nudge: Improving Decisions About Health, wealth, and Happiness](https://www.goodreads.com/book/show/3450744-nudge)
 
 
 ### Past Reviews
