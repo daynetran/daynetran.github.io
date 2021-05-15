@@ -4,10 +4,8 @@ title: About
 permalink: /about/
 ---
 
-My name is `Dayne Tran`, and I'm a second-year undergrad `Econ + CS` student at U.C. Berkeley.
+Hello, weary internet traveler. Rest here, in my little corner of the world wide web. I'm `Dayne`, and I'm a passionate learner, an avid basketball player, a lover of deep thought and conversation, and a loyal older brother and son. I'm studying computer science and economics at Berkeley (go bears!), and I've created this space as a personal digital solace, insulated from the messy day-to-day hustle and bustle of life.
 
-I created this site because I wanted to find a personal place where I can jot down my thoughts
-on whatever it is that I'm learning about.  At this little corner of the Web, you can find my projects, blogs, reviews, and more. If you want to get in touch, email me at `dayne.tran@berkeley.edu`.
+You can find my projects, blog, reviews, and other forms of my expression of my personal interests. If you want to get in touch, email me at `dayne.tran@berkeley.edu` and leave your best joke in the subject line.
 
-
-<center><img src="/assets/images/photo.jpg" ><center>
+<center><img src="/assets/images/Selfie.jpg" ><center>
