@@ -24,10 +24,10 @@ github_username:  daynetran
 google_analytics: UA-173228837-1
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: pages-themes/hacker@v0.2.0
 plugins:
   - jekyll-feed
-
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
