@@ -3,6 +3,7 @@ layout: post
 title: (My Review of) The Box - How the Shipping Container Made the World Smaller and the World Economy Better
 date: 2020-07-21 13:37:00 -0000
 categories: 2020-book-reviews book-review
+tags: books
 ---
  In March, my Intro to Economics professor (the amazing Christina Romer) recommended *The Box* as an immersive introduction to economics. I got around to reading it three months later. I wish I picked it up earlier.
 

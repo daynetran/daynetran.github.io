@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
@@ -5,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="../bookshelf.css">
     {% include head-custom.html %}
 
 {% seo %}
@@ -21,12 +21,11 @@
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
         <section id="downloads">
-          <a href= "/books" class="btn">Books</a>
-          <a href="/filmroom" class="btn">/S</a>
-          <a href="https://github.com/daynetran/" class="btn">GitHub</a>
-          <a href="https://daynewastaken.substack.com/" class="btn">Substack</a>
-          <a href="https://www.facebook.com/daynetran1/" class="btn">Facebook</a>
-          <a href="https://www.instagram.com/dayne.tran/" class="btn">Instagram</a>
+          {% if site.show_downloads %}
+            <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
+            <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
+          {% endif %}
+          <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
         </section>
       </div>
     </header>
@@ -37,6 +36,4 @@
       </section>
     </div>
   </body>
-  
-<script src="bookshelf.js"></script>
 </html>
