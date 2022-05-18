@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Transparent Thoughts
+title: Dayne Tran
 email: dayne.tran@berkeley.edu
 description: >- # this means to ignore newlines until "baseurl:"
   This is a place where I share my projects, thoughts and opinions, important updates, and more.
