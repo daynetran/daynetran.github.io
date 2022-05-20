@@ -7,14 +7,10 @@ permalink: /books/
 
 
 ### What I'm Reading Right Now
-- [Superintelligence: Paths, Dangers, Strategies](https://www.goodreads.com/book/show/20527133-superintelligence)
-- [Nudge: Improving Decisions About Health, wealth, and Happiness](https://www.goodreads.com/book/show/3450744-nudge)
-
-
 <div class="bookshelf">
   <a href="https://www.goodreads.com/book/show/101255.On_Food_and_Cooking"> 
     <div class="book">
-      <div class="side spine" style="background-color: red">
+      <div class="side spine" style="background-color: #b81c1c">
         <span class="spine-title"> On Food and Cooking </span>
         <span class="spine-author">
           HG
@@ -42,19 +38,21 @@ permalink: /books/
       ></div>
     </div>
   </a>
-      <div class="book">
-      <div class="side spine">
-        <span class="spine-title"> The Anthropocene Reviewed </span>
+  <a href="https://www.goodreads.com/book/show/30659.Meditations"> 
+    <div class="book">
+      <div class="side spine" style="background-color: black">
+        <span class="spine-title"> Meditations</span>
         <span class="spine-author">
-          JG
+          MA
         </span>
       </div>
       <div class="side top"></div>
       <div
         class="side cover"
-        style="background-image: url(https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1616514130l/55145261.jpg)"
+        style="background-image: url(https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421618636l/30659.jpg)"
       ></div>
     </div>
+  </a>
 </div>
 
 <br/><br/>
@@ -67,3 +65,53 @@ permalink: /books/
     </li>
   {% endfor %}
 </ul>
+
+<div class="bookshelf">
+  <a href="https://www.goodreads.com/book/show/101255.On_Food_and_Cooking"> 
+    <div class="book">
+      <div class="side spine" style="background-color: red">
+        <span class="spine-title"> On Food and Cooking </span>
+        <span class="spine-author">
+          HG
+        </span>
+      </div>
+      <div class="side top"></div>
+      <div
+        class="side cover"
+        style="background-image: url(https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1556604137l/34466963._SY475_.jpg)"
+      ></div>
+    </div>
+  </a>
+  <a href="https://www.gopl.io/"> 
+    <div class="book">
+      <div class="side spine" style="background-color: lightblue">
+        <span class="spine-title"> The Go Programming Language </span>
+        <span class="spine-author">
+          AD & BK
+        </span>
+      </div>
+      <div class="side top"></div>
+      <div
+        class="side cover"
+        style="background-image: url(https://www.gopl.io/cover.png)"
+      ></div>
+    </div>
+  </a>
+  <a href="https://www.goodreads.com/book/show/30659.Meditations"> 
+    <div class="book">
+      <div class="side spine" style="background-color: black">
+        <span class="spine-title"> Meditations</span>
+        <span class="spine-author">
+          MA
+        </span>
+      </div>
+      <div class="side top"></div>
+      <div
+        class="side cover"
+        style="background-image: url(https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1421618636l/30659.jpg)"
+      ></div>
+    </div>
+  </a>
+</div>
+
+<br/><br/>
