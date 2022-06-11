@@ -21,8 +21,11 @@ div.container {
   text-align: center;
   padding: 10px 20px;
 }
-</style>
 
+li {text-align: left;}
+a {color: greenyellow}
+</style>
+# **Introduction**
 Heyooo! I'm Dayne, and thank you for coming here, to my little corner of the
 world wide web. I hail from SoCal, but I've been calling NorCal home for the
 past 4 years. I'm about to be a senior at UC Berkeley, and I'm studying both
@@ -50,19 +53,19 @@ platform, you can find all my posts there, and if you *really really* love my
 content, you can tip me through that too ;).
 
 <center>
-<div class="polaroid">
-    <img src="/assets/images/habitatpicture.jpg">
-    <div class="container">
-    <p>March 2022: Kailey, Marco, and I enjoying some clean-ass water</p>
-    </div>
-</div>
+  <div class="polaroid">
+      <img src="/assets/images/habitatpicture.jpg">
+      <div class="container">
+      <p>March 2022: Kailey, Marco, and I enjoying some clean-ass water</p>
+      </div>
+  </div>
 </center>
 
-## **Blog Posts**
+# **Blog Posts**
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> posted {{post.date | date: "%b %-d %Y"}}
+      <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a> posted {{post.date | date: "%b %-d %Y"}} {{post.excerpt}}
     </li>
   {% endfor %}
 </ul>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Finger on the Pulse (#1)
-categories: weekend-review
+categories: FingerOnThePulse
 author: Dayne Tran
 ---
 Wow, I'm excited to be launching this feature of my blog! Finger On the Pulse is

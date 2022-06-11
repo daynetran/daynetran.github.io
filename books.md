@@ -4,9 +4,9 @@ title: "Books"
 permalink: /books/
 ---
 
+<style>a {color: greenyellow}</style>
 
-
-### What I'm Reading Right Now
+# **What I'm Reading Right Now** #
 <div class="bookshelf">
   <a href="https://www.goodreads.com/book/show/101255.On_Food_and_Cooking"> 
     <div class="book">
@@ -57,14 +57,16 @@ permalink: /books/
 
 <br/><br/>
 
-### Past Reviews
-<ul>
-  {% for post in site.categories.book-review %}
+# **Past Reviews**
+
+  <ul>
+  {% for post in site.categories.Books %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> posted {{post.date | date: "%b %-d %Y"}}
+      <a href="{{ post.url }}">{{ post.title }}</a> posted {{post.date | date: "%b %-d %Y"}} </h3> {{post.excerpt}} 
     </li>
   {% endfor %}
-</ul>
+  </ul>
+
 
 <div class="bookshelf">
   <a href="https://www.goodreads.com/book/show/101255.On_Food_and_Cooking"> 
