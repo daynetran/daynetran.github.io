@@ -9,7 +9,7 @@ permalink: /finger_on_the_pulse/
 </style>
 
 
-# **Past /S Articles**
+# **Past Finger on the Pulse Articles**
 
   <ul>
   {% for post in site.categories.FingerOnThePulse %}
