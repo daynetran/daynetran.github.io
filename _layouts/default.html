@@ -2,40 +2,36 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <meta charset='utf-8'>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    
     {% include head-custom.html %}
+ </head>
 
-{% seo %}
-  </head>
+ <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
-  <body>
+        <h3 class="view"><a href= "https://www.linkedin.com/in/daynetran/" class="btn">LinkedIn  |  </a> 
+                        <a href= "https://github.com/daynetran" class="btn">Github  |  </a>
+                        <a href= "" class="btn">Resume</a>
+        </h3>
 
-    <header>
-      <div class="container">
-        <a id="a-title" href="{{ '/' | relative_url }}">
-          <h1>Dayne Tran</h1>
-        </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        {% if site.logo %}
+        <img src="{{site.logo | relative_url}}" alt="Logo"/>
+        {% endif %}
+        
+      </header>
+      <section>
 
-        <section id="downloads">
-          <a href= "/books" class="btn">Books</a>
-          <a href="/slashs" class="btn">/S</a>
-          <a href="/finger_on_the_pulse" class="btn">Finger on the Pulse</a>
-          <a href="https://github.com/daynetran/" class="btn">GitHub</a>
-          <a href="https://daynewastaken.substack.com/" class="btn">Substack</a>
-          <a href="https://www.facebook.com/daynetran1/" class="btn">Facebook</a>
-          <a href="https://www.instagram.com/dayne.tran/" class="btn">Instagram</a>
-        </section>
-      </div>
-    </header>
+      {{ content }}
 
-    <div class="container">
-      <section id="main_content">
-        {{ content }}
       </section>
     </div>
   </body>
+  
 </html>

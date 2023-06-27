@@ -14,5 +14,3 @@ author: Dayne Tran
 It may be hard to appreciate today how revolutionary the cargo container truly is. Global supply chains are the norm, and we can purchase an overabundance of goods from around the world. But back then, sloppy, disorganized deliveries took weeks instead of days, months instead of weeks. Pillaging was rampant, and there was no way to secure your goods. Businesses simply lost too much to ever justify heavily (or even regularly) trading products overseas.
 
 But the "box" is compact, secure, anonymous, and organizeable. This 4x4 slab of steel laid the foundation upon which globalization took off like a rocket. It helped build the world we live in today.
-
- <center><img src="/assets/images/the-box.jpg" height='300'><center>

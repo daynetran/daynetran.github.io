@@ -3,13 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Index
+title: About
+link: /about/
 ---
-## Hi, I'm Dayne. 
-I'm a software engineer from Berkeley, California. I want to build software products that engross,
-disrupt, and last. I enjoy building full-stack apps, learning  new languages and frameworks, and
-tinkering with big-data datasets.
-
 
 ## Education
 I graduated with degrees in **Computer Science** and **Economics** from the University of California,
@@ -44,4 +40,5 @@ player, having played competitively in high school and intramurals in college. F
 2022 to the summer of 2023, I was an equipment manager for the football team while studying in 
 Berkeley. I worked with the running backs group at practices and was a ball boy at games.
 
-In my free time, I  write and cook, spend time with family, and lace up my shoes on the basketball court.
+In my free time, I  write and cook, tinker with new 
+languages and frameworks, and lace up my shoes on the basketball court.
