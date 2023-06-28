@@ -10,6 +10,8 @@ I'm a software engineer from Berkeley, California. I want to build software prod
 disrupt, and last. I enjoy building full-stack apps, learning  new languages and frameworks, and
 tinkering with big-data datasets.
 
+Feel free to reach me at [daynetran256@gmail.com](daynetran256@gmail.com). I'd love to talk.
+
 
 ## Education
 I graduated with degrees in **Computer Science** and **Economics** from the University of California,
