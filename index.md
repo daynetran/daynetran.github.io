@@ -36,8 +36,8 @@ intelligence, games, economic analysis, statistical analysis, and more. These pr
 
 ## What Else?
 
-<img src="/assets/images/notre_dame.jpg" alt="Me at Notre Dame" width = 248>
-<img src="/assets/images/big_game.jpg" alt="Me at the Big Game" width = 248>
+<img src="/assets/images/notre_dame.JPG" alt="Me at Notre Dame" width = 248>
+<img src="/assets/images/big_game.JPG" alt="Me at the Big Game" width = 248>
 
 I found a love for sports at a very young age that has stayed true to this day. I am an avid basketball 
 player, having played competitively in high school and intramurals in college. From the spring of
