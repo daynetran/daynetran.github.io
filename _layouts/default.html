@@ -1,37 +1,45 @@
 
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!DOCTYPE html>
+    <html lang="{{ site.lang | default: "en-US" }}">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    
-    {% include head-custom.html %}
- </head>
-
- <body>
-    <div class="wrapper">
-      <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-
-        <h3 class="view"><a href= "https://www.linkedin.com/in/daynetran/" class="btn">LinkedIn  |  </a> 
-                        <a href= "https://github.com/daynetran" class="btn">Github  |  </a>
-                        <a href= "" class="btn">Resume</a>
-        </h3>
-
-        {% if site.logo %}
-        <img src="{{site.logo | relative_url}}" alt="Logo"/>
-        {% endif %}
+        <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
         
-      </header>
-      <section>
+        {% include head-custom.html %}
+    </head>
 
-      {{ content }}
+    <body>
+        <div class="wrapper">
+        <header>
+            <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
-      </section>
-    </div>
-  </body>
-  
-</html>
+            <h3 class="view"><a href= "https://www.linkedin.com/in/daynetran/" class="btn">LinkedIn  |  </a> 
+                            <a href= "https://github.com/daynetran" class="btn">Github  |  </a>
+                            <a href= "" class="btn">Resume</a>
+            </h3>
+
+            <blockquote> 
+                    “Nobody ever figures out what life is all about, and it doesn't matter. Explore 
+                    the world. Nearly everything is really interesting if you go into it deeply 
+                    enough.”
+                    <p>  -  Richard P. Feynman</p>
+            </blockquote>
+
+            <p></p>
+            {% if site.logo %}
+            <img src="{{site.logo | relative_url}}" alt="Logo"/>
+            {% endif %}
+            
+        </header>
+        <section>
+
+        {{ content }}
+
+        </section>
+        </div>
+    </body>
+
+    </html>
