@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Dayne Tran
-logo: /assets/images/GradPic.jpeg
+logo: /assets/images/grad_pic.jpeg
 email: dayne.tran@berkeley.edu
 description: >- # this means to ignore newlines until "baseurl:"
   This is a digital garden where I showcase my projects, classes, and more.
