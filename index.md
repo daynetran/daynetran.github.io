@@ -45,4 +45,4 @@ player, having played competitively in high school and intramurals in college. F
 2022 to the summer of 2023, I was an equipment manager for the football team while studying in 
 Berkeley. I worked with the running backs group at practices and was a ball boy at games.
 
-In my free time, I  write and cook, spend time with family, and lace up my shoes on the basketball court.
+In my free time, I  write and cook, spend time with family, tinker with my NeoVim environment, and lace up my shoes on the basketball court.
